@@ -14,6 +14,10 @@
 body {
 	font-family: "Lato";
 	color: #424551;
+	font-size: 16px;
+	color: #424551;
+	line-height: 1.6;
+	font-weight: 700;
 }
 
 /*=============================================*/
@@ -110,7 +114,7 @@ body {
 .body-main__content {
 	flex: 0 1 50%;
 	align-items: center;
-	padding-left: 40px;
+	padding-right: 40px;
 }
 .body-main__play {
 	font-weight: 700;
@@ -306,7 +310,7 @@ body {
 	align-items: center;
 }
 .body-who__media:not(:last-child) {
-	margin-bottom: 180px;
+	padding-bottom: 180px;
 }
 .body-who__image {
 }
@@ -329,12 +333,12 @@ body {
 
 .who-block__item {
 	position: relative;
-
 	line-height: 1.6;
 	padding: 0 0 0 32px;
+	margin-bottom: 12px;
 }
 .who-block__item:last-child {
-	margin-bottom: 22px;
+	padding-bottom: 22px;
 }
 .who-block__item::before {
 	content: "";
@@ -355,47 +359,4 @@ body {
 .who-block__button {
 }
 .button {
-}
-
-/*=============TEACHERS===================*/
-.page__teacher {
-}
-.teacher-block {
-	display: flex;
-}
-.teacher-block__container {
-}
-.teacher-block__body {
-}
-.body-teacher {
-}
-.body-teacher__header {
-	display: flex;
-	align-items: flex-end;
-	justify-content: space-between;
-}
-.body-teacher__header:not(:last-child) {
-	margin-bottom: 60px;
-}
-.body-teacher__caption {
-}
-.caption {
-}
-.body-teacher__button {
-	flex-shrink: 0;
-}
-.button {
-}
-.body-teacher__main {
-}
-.body-teacher__cards {
-	display: flex;
-	gap: 10px;
-	flex-wrap: wrap;
-}
-.body-teacher__card {
-}
-.card {
-	flex: 0 1 50%;
-	display: flex;
 }
